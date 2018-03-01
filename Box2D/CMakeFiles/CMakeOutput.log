@@ -1,0 +1,631 @@
+The system is: Windows - 10.0.15063 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.1.1012.6693
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/23/2017 6:59:19 PM.
+Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\3.9.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\3.9.0\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\3.9.0\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.28
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/3.9.0/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.1.1012.6693
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/23/2017 6:59:20 PM.
+Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\3.9.0\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\3.9.0\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\3.9.0\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.61
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/3.9.0/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_a92fd.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.1012.6693
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/23/2017 6:59:21 PM.
+Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\cmTC_a92fd.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a92fd.dir\Debug\".
+  Creating directory "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a92fd.dir\Debug\cmTC_a92fd.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a92fd.dir\Debug\cmTC_a92fd.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a92fd.dir\Debug\\" /Fd"cmTC_a92fd.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25019 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a92fd.dir\Debug\\" /Fd"cmTC_a92fd.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\testCCompiler.c"
+  testCCompiler.c
+  
+Link:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\cmTC_a92fd.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_a92fd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_a92fd.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a92fd.dir\Debug\testCCompiler.obj
+  cmTC_a92fd.vcxproj -> E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\cmTC_a92fd.exe
+  cmTC_a92fd.vcxproj -> E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_a92fd.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_a92fd.dir\Debug\cmTC_a92fd.tlog\unsuccessfulbuild".
+  Touching "cmTC_a92fd.dir\Debug\cmTC_a92fd.tlog\cmTC_a92fd.lastbuildstate".
+Done Building Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\cmTC_a92fd.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b375a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.1012.6693
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/23/2017 6:59:22 PM.
+Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\cmTC_b375a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b375a.dir\Debug\".
+  Creating directory "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b375a.dir\Debug\cmTC_b375a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b375a.dir\Debug\cmTC_b375a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b375a.dir\Debug\\" /Fd"cmTC_b375a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "E:\Data\BuildSystem\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25019 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b375a.dir\Debug\\" /Fd"cmTC_b375a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "E:\Data\BuildSystem\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\cmTC_b375a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_b375a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_b375a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b375a.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_b375a.vcxproj -> E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\cmTC_b375a.exe
+  cmTC_b375a.vcxproj -> E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_b375a.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_b375a.dir\Debug\cmTC_b375a.tlog\unsuccessfulbuild".
+  Touching "cmTC_b375a.dir\Debug\cmTC_b375a.tlog\cmTC_b375a.lastbuildstate".
+Done Building Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\cmTC_b375a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.52
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_5f380.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.1012.6693
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/23/2017 6:59:23 PM.
+Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\cmTC_5f380.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5f380.dir\Debug\".
+  Creating directory "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5f380.dir\Debug\cmTC_5f380.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5f380.dir\Debug\cmTC_5f380.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5f380.dir\Debug\\" /Fd"cmTC_5f380.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25019 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5f380.dir\Debug\\" /Fd"cmTC_5f380.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  testCXXCompiler.cxx
+  
+Link:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\cmTC_5f380.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_5f380.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_5f380.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_5f380.dir\Debug\testCXXCompiler.obj
+  cmTC_5f380.vcxproj -> E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\cmTC_5f380.exe
+  cmTC_5f380.vcxproj -> E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_5f380.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_5f380.dir\Debug\cmTC_5f380.tlog\unsuccessfulbuild".
+  Touching "cmTC_5f380.dir\Debug\cmTC_5f380.tlog\cmTC_5f380.lastbuildstate".
+Done Building Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\cmTC_5f380.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.54
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_98c2b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.1012.6693
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/23/2017 6:59:23 PM.
+Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\cmTC_98c2b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_98c2b.dir\Debug\".
+  Creating directory "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_98c2b.dir\Debug\cmTC_98c2b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_98c2b.dir\Debug\cmTC_98c2b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_98c2b.dir\Debug\\" /Fd"cmTC_98c2b.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "E:\Data\BuildSystem\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25019 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_98c2b.dir\Debug\\" /Fd"cmTC_98c2b.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "E:\Data\BuildSystem\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\cmTC_98c2b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_98c2b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_98c2b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_98c2b.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_98c2b.vcxproj -> E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\cmTC_98c2b.exe
+  cmTC_98c2b.vcxproj -> E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_98c2b.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_98c2b.dir\Debug\cmTC_98c2b.tlog\unsuccessfulbuild".
+  Touching "cmTC_98c2b.dir\Debug\cmTC_98c2b.tlog\cmTC_98c2b.lastbuildstate".
+Done Building Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\cmTC_98c2b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.54
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_25ce2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.1012.6693
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/23/2017 6:59:24 PM.
+Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\cmTC_25ce2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_25ce2.dir\Debug\".
+  Creating directory "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_25ce2.dir\Debug\cmTC_25ce2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_25ce2.dir\Debug\cmTC_25ce2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_25ce2.dir\Debug\\" /Fd"cmTC_25ce2.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25019 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_25ce2.dir\Debug\\" /Fd"cmTC_25ce2.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\feature_tests.cxx"
+  feature_tests.cxx
+  
+Link:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\cmTC_25ce2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_25ce2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_25ce2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_25ce2.dir\Debug\feature_tests.obj
+  cmTC_25ce2.vcxproj -> E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\cmTC_25ce2.exe
+  cmTC_25ce2.vcxproj -> E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_25ce2.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_25ce2.dir\Debug\cmTC_25ce2.tlog\unsuccessfulbuild".
+  Touching "cmTC_25ce2.dir\Debug\cmTC_25ce2.tlog\cmTC_25ce2.lastbuildstate".
+Done Building Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\cmTC_25ce2.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.53
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_1785c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.1012.6693
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/23/2017 6:59:25 PM.
+Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\cmTC_1785c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1785c.dir\Debug\".
+  Creating directory "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1785c.dir\Debug\cmTC_1785c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1785c.dir\Debug\cmTC_1785c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1785c.dir\Debug\\" /Fd"cmTC_1785c.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25019 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1785c.dir\Debug\\" /Fd"cmTC_1785c.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\feature_tests.cxx"
+  feature_tests.cxx
+  
+Link:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\cmTC_1785c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_1785c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_1785c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1785c.dir\Debug\feature_tests.obj
+  cmTC_1785c.vcxproj -> E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\cmTC_1785c.exe
+  cmTC_1785c.vcxproj -> E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_1785c.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_1785c.dir\Debug\cmTC_1785c.tlog\unsuccessfulbuild".
+  Touching "cmTC_1785c.dir\Debug\cmTC_1785c.tlog\cmTC_1785c.lastbuildstate".
+Done Building Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\cmTC_1785c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.54
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_80aa6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.1012.6693
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/23/2017 6:59:26 PM.
+Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\cmTC_80aa6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_80aa6.dir\Debug\".
+  Creating directory "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_80aa6.dir\Debug\cmTC_80aa6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_80aa6.dir\Debug\cmTC_80aa6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_80aa6.dir\Debug\\" /Fd"cmTC_80aa6.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25019 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_80aa6.dir\Debug\\" /Fd"cmTC_80aa6.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\feature_tests.cxx"
+  feature_tests.cxx
+  
+Link:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\cmTC_80aa6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_80aa6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_80aa6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_80aa6.dir\Debug\feature_tests.obj
+  cmTC_80aa6.vcxproj -> E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\cmTC_80aa6.exe
+  cmTC_80aa6.vcxproj -> E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_80aa6.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_80aa6.dir\Debug\cmTC_80aa6.tlog\unsuccessfulbuild".
+  Touching "cmTC_80aa6.dir\Debug\cmTC_80aa6.tlog\cmTC_80aa6.lastbuildstate".
+Done Building Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\cmTC_80aa6.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.52
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:\VisualStudio2017/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_269ea.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.1.1012.6693
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/23/2017 6:59:27 PM.
+Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\cmTC_269ea.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_269ea.dir\Debug\".
+  Creating directory "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_269ea.dir\Debug\cmTC_269ea.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_269ea.dir\Debug\cmTC_269ea.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_269ea.dir\Debug\\" /Fd"cmTC_269ea.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.10.25019 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_269ea.dir\Debug\\" /Fd"cmTC_269ea.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\feature_tests.cxx"
+  feature_tests.cxx
+  
+Link:
+  E:\VisualStudio2017\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\cmTC_269ea.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_269ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_269ea.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_269ea.dir\Debug\feature_tests.obj
+  cmTC_269ea.vcxproj -> E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\Debug\cmTC_269ea.exe
+  cmTC_269ea.vcxproj -> E:/Data/MyGame/Box2D-2.3.1/Box2D/CMakeFiles/CMakeTmp/Debug/cmTC_269ea.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_269ea.dir\Debug\cmTC_269ea.tlog\unsuccessfulbuild".
+  Touching "cmTC_269ea.dir\Debug\cmTC_269ea.tlog\cmTC_269ea.lastbuildstate".
+Done Building Project "E:\Data\MyGame\Box2D-2.3.1\Box2D\CMakeFiles\CMakeTmp\cmTC_269ea.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.52
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
