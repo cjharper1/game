@@ -1,49 +1,41 @@
-#include "EventHandler/EventHandler.h"
-#include "Physics/PhysicsEngine.h"
 #include <SFML/Graphics.hpp>
-#include <thread>
-
-// FORWARD DECLARATIONS.
-void test(PhysicsEngine& physics_engine, sf::Shape& shape);
+#include <SFML/System.hpp>
 
 int main()
 {
-	// CREATE THE MAIN WINDOW.
-	sf::RenderWindow window(sf::VideoMode(1000, 1000), "Secret of Adventure of Monkey Saves Science III");
-	
-	// CREATE A GREEN CIRCLE.
-	sf::CircleShape shape(100.f);
-	shape.setFillColor(sf::Color::Green);
+    // CREATE THE MAIN WINDOW.
+    sf::RenderWindow window(
+		sf::VideoMode(1000, 1000),
+		"Secret of Adventure of Monkey Saves Science III",
+		sf::Style::Default);
 
-	// INITIALIZE THE EVENT HANDLER.
-	EventHandler event_handler;
-	
-	// HANDLE THE PHYSICS.
-	PhysicsEngine physics_engine(
-		event_handler,
-		window);
-	std::thread physics_thread(
-		test,
-		physics_engine,
-		shape);
+    // CREATE A GREEN SQUARE.
+	sf::Vector2<float> player_character_size = sf::Vector2<float>(10, 10);
+    sf::RectangleShape player_character(player_character_size);
+    player_character.setFillColor(sf::Color::Green);
 
-	// EXECUTE GAME AS LONG AS WINDOW IS OPEN.
-	while (window.isOpen())
-	{
-		// CLEAR THE WINDOW BUFFER.
-		window.clear();
+    // EXECUTE GAME AS LONG AS WINDOW IS OPEN.
+    while (window.isOpen())
+    {
+		sf::Event current_event;
+		while (window.pollEvent(current_event))
+		{
+			if (current_event.type == sf::Event::Closed)
+			{
+				window.close();
+				break;
+			}
+		}
 
-		// DRAW THE CIRCLE TO THE SCREEN BUFFER.
-		window.draw(shape);
+        // CLEAR THE WINDOW BUFFER.
+        window.clear();
 
-		// DISPLAY THE NEW SCREEN.
-		window.display();
-	}
+        // DRAW THE PLAYER CHARACTER.
+        window.draw(player_character);
 
-	return 0;
-}
+        // DISPLAY THE NEW SCREEN.
+        window.display();
+    }
 
-void test(PhysicsEngine& physics_engine, sf::Shape& shape)
-{
-	physics_engine.Process(shape);
+    return 0;
 }

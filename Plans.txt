@@ -1,0 +1,9 @@
+Create a thread for the physics simulation.
+
+Create a wrapper class for the window.
+
+Window has a get event method that returns a boost::optional. With boost::none corresponding to no event.
+
+Events are sent to the physics thread as often as they are collected by the window into a buffer.
+
+The physics thread only takes the most recent event off the buffer as input.
