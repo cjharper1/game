@@ -1,3 +1,4 @@
+#include <boost/optional.hpp>
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
 
